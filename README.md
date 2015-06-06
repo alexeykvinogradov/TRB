@@ -1,2 +1,2 @@
 # TRB
-Tough Russian Rabbit 2D game
+Tough Russian Bear 2D game
