@@ -16,7 +16,7 @@
     unsigned* pixels;
     unsigned  width;
     unsigned  height;
-  };
+  } PngImageData;
 
   typedef void (*ImageDrawFunc)(HDC);
 
@@ -33,8 +33,8 @@
   typedef enum tagImageCreateResult
   {
     IMAGE_CREATE_RESULT_UNDEFINED        = -1,
-    IMAGE_CREATE_RESULT_OK
-    IMAGE_CREATE_RESULT_UNSUPPORTED_TYPE =  0,
+    IMAGE_CREATE_RESULT_OK               =  0,
+    IMAGE_CREATE_RESULT_UNSUPPORTED_TYPE     ,
     IMAGE_CREATE_RESULT_FILE_NOT_FOUND       , // 1
     IMAGE_CREATE_RESULT_NO_MEMORY            , // 2
     IMAGE_CREATE_RESULT_BAD_FILE             , // 3
