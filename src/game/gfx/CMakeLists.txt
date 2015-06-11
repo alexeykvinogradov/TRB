@@ -1,6 +1,8 @@
 
 SET (GFX_SRC
   ApiDefinitions.h
+  Background.h
+  Background.c
   Sprite.h
   Sprite.c
 )
